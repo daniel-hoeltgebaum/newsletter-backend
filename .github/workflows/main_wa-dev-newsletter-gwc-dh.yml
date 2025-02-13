@@ -18,8 +18,8 @@ jobs:
 
       - name: Set up bun
         uses: oven-sh/setup-bun@v2
-          with:
-            bun-version: latest
+        with:
+          bun-version: latest
 
       - name: bun install, build, and test
         run: |
